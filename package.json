@@ -1,0 +1,20 @@
+{
+  "name": "assets-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "postcss",
+    "assets parsing"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^1.0.0",
+    "postcss": "^5.2.6",
+    "tableify": "^1.0.0"
+  }
+}

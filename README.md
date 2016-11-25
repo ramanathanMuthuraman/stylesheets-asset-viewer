@@ -11,8 +11,7 @@ npm install --save stylesheets-asset-viewer
 ## Usage
 
 This plugin will return a html file with table containing the stylesheets and assets used
-Sample output [result.html](https://github.com/ramanathanMuthuraman/stylesheets-asset-viewer/result.html).
-
+Sample output [result.html](http://rawgit.com/ramanathanmuthuraman/stylesheets-asset-viewer/master/result.html)
 
 ```js
 var gulp = require('gulp');

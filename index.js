@@ -1,6 +1,7 @@
 var postcss = require('postcss');
 var tableify = require('tableify');
 var fs = require('fs-extra');
+var postcss = require('postcss');
 
 module.exports = postcss.plugin('assets-parser', function(options) {
 
@@ -16,7 +17,7 @@ module.exports = postcss.plugin('assets-parser', function(options) {
 
 	return function (css) {
 		var item = {};
-		item['URL of the stylesheet'] = css.source.input.file;
+		item['URL/Number of the stylesheet'] = css.source.input.file||(1+styleSheets.length);
 		item['Selector with background'] = {};
 		css.walkDecls(/^background/,function (decl) {
 			decl.parent.selector.split(",").forEach(function(selector){

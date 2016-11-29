@@ -1,8 +1,11 @@
 {
-  "name": "assets-parser",
+  "name": "stylesheets-asset-viewer",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+  "node": ">=4.2.4"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +14,7 @@
     "assets parsing"
   ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "fs-extra": "^1.0.0",
     "postcss": "^5.2.6",
